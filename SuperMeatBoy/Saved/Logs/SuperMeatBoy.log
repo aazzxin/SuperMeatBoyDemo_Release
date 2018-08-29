@@ -1,0 +1,808 @@
+﻿Log file open, 07/27/18 19:21:01
+LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
+LogWindows: File 'aqProf.dll' does not exist
+LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi.dll' does not exist
+LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi32e.dll' does not exist
+LogPlatformFile: Not using cached read wrapper
+LogInit: Display: RandInit(-744883560) SRandInit(-744883560).
+LogTaskGraph: Started task graph with 5 named threads and 23 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.238646
+LogD3D11RHI: Aftermath initialized
+LogICUInternationalization: Display: ICU TimeZone Detection - Raw Offset: +8:00, Platform Override: ''
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin CryptoKeys
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin DatasmithContent
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin HTML5Networking
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin ImgMedia
+LogPluginManager: Mounting plugin LinearTimecode
+LogPluginManager: Mounting plugin MediaCompositing
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin ActorSequence
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleARKit
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin LiveLink
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin ImmediatePhysics
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogStreaming: Display: Took  0.028s to configure plugins.
+LogInit: Using libcurl 7.47.1
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2g
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit:  - MaxHostConnections = 16  - Libcurl will limit the number of connections to a host
+LogInit:  - LocalHostAddr = Default
+LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+LogInit: WinSock: I am baconxu-PC0 (10.32.47.43:0)
+LogInit: Build: ++UE4+Release-4.19-CL-4033788
+LogInit: Engine Version: 4.19.2-4033788+++UE4+Release-4.19
+LogInit: Compatible Engine Version: 4.19.0-3944462+++UE4+Release-4.19
+LogInit: Net CL: 3944462
+LogDevObjectVersion: Number of dev versions registered: 18
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 23
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 33
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 2
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 25
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 6
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 1
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 2
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 16
+LogDevObjectVersion:   Dev-ReflectionCapture (6B266CEC-1EC7-4B8F-A30B-E4D90942FC07): 1
+LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
+LogInit: Compiled (64-bit): Apr 27 2018 02:10:52
+LogInit: Compiled with Visual C++: 19.00.24215.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.19
+LogInit: Command Line:  
+LogInit: Base Directory: E:/UnrealOutput/Demo/WindowsNoEditor/SuperMeatBoy/Binaries/Win64/
+LogInit: Installed Engine Build: 0
+LogStreaming: Display: Took  0.000s to delete old logs.
+LogInit: Presizing for max 2097152 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogStreaming: Display: Async Loading initialized: Event Driven Loader: true, Async Loading Thread: false
+LogInit: Object subsystem initialized
+[2018.07.27-11.21.01:937][  0]LogInit: Selected Device Profile: [WindowsNoEditor]
+[2018.07.27-11.21.01:937][  0]LogInit: Applying CVar settings loaded from the selected device profile: [WindowsNoEditor]
+[2018.07.27-11.21.01:941][  0]LogInit: Computer: baconxu-PC0
+[2018.07.27-11.21.01:941][  0]LogInit: User: baconxu
+[2018.07.27-11.21.01:941][  0]LogInit: CPU Page size=4096, Cores=4
+[2018.07.27-11.21.01:942][  0]LogInit: High frequency timer resolution =3.515625 MHz
+[2018.07.27-11.21.01:942][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2018.07.27-11.21.01:942][  0]LogMemory: Platform Memory Stats for WindowsNoEditor
+[2018.07.27-11.21.01:942][  0]LogMemory: Process Physical Memory: 96.02 MB used, 96.02 MB peak
+[2018.07.27-11.21.01:942][  0]LogMemory: Process Virtual Memory: 107.52 MB used, 107.52 MB peak
+[2018.07.27-11.21.01:942][  0]LogMemory: Physical Memory: 8147.77 MB used,  8164.22 MB free, 16311.99 MB total
+[2018.07.27-11.21.01:942][  0]LogMemory: Virtual Memory: 339.60 MB used,  8164.22 MB free, 134217728.00 MB total
+[2018.07.27-11.21.02:117][  0]LogInit: Using OS detected language (zh-CN).
+[2018.07.27-11.21.02:117][  0]LogInit: Using OS detected locale (zh-CN).
+[2018.07.27-11.21.02:118][  0]LogTextLocalizationManager: No localization for 'zh-CN' exists, so 'en' will be used for the language.
+[2018.07.27-11.21.02:118][  0]LogTextLocalizationManager: No localization for 'zh-CN' exists, so 'en' will be used for the locale.
+[2018.07.27-11.21.02:142][  0]LogStreaming: Display: Took  0.025s to EndInitTextLocalization.
+[2018.07.27-11.21.02:187][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2018.07.27-11.21.02:187][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2018.07.27-11.21.02:192][  0]LogD3D11RHI: D3D11 adapters:
+[2018.07.27-11.21.02:445][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1060 6GB' (Feature Level 11_0)
+[2018.07.27-11.21.02:445][  0]LogD3D11RHI:       6052/0/8155 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2018.07.27-11.21.02:465][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2018.07.27-11.21.02:465][  0]LogD3D11RHI:       0/0/8155 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2018.07.27-11.21.02:465][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2018.07.27-11.21.02:473][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2018.07.27-11.21.02:473][  0]LogD3D11RHI:     GPU DeviceId: 0x1c03 (for the marketing name, search the web for "GPU Device Id")
+[2018.07.27-11.21.02:473][  0]LogWindows: EnumDisplayDevices:
+[2018.07.27-11.21.02:473][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1060 6GB' (P:1 D:1)
+[2018.07.27-11.21.02:473][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1060 6GB' (P:0 D:0)
+[2018.07.27-11.21.02:473][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1060 6GB' (P:0 D:0)
+[2018.07.27-11.21.02:473][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1060 6GB' (P:0 D:0)
+[2018.07.27-11.21.02:474][  0]LogWindows: DebugString: FoundDriverCount:4 
+[2018.07.27-11.21.02:474][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1060 6GB
+[2018.07.27-11.21.02:474][  0]LogD3D11RHI:   Driver Version: 390.65 (internal:23.21.13.9065, unified:390.65)
+[2018.07.27-11.21.02:474][  0]LogD3D11RHI:      Driver Date: 1-3-2018
+[2018.07.27-11.21.02:474][  0]LogRHI: Texture pool is 4236 MB (70% of 6052 MB)
+[2018.07.27-11.21.02:499][  0]LogD3D11RHI: [Aftermath] Aftermath enabled and primed
+[2018.07.27-11.21.02:499][  0]LogD3D11RHI: [Aftermath] Aftermath enabled and primed
+[2018.07.27-11.21.02:499][  0]LogD3D11RHI: Async texture creation enabled
+[2018.07.27-11.21.02:515][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
+[2018.07.27-11.21.02:565][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2018.07.27-11.21.02:565][  0]LogSlate: Using Freetype 2.6.0
+[2018.07.27-11.21.02:566][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.07.27-11.21.02:566][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.07.27-11.21.02:605][  0]LogAssetRegistry: FAssetRegistry took 0.0092 seconds to start up
+[2018.07.27-11.21.02:675][  0]LogPackageLocalizationCache: Processed 9 localized package path(s) for 1 prioritized culture(s) in 0.002945 seconds
+[2018.07.27-11.21.02:675][  0]LogPakFile: New pak file ../../../SuperMeatBoy/Content/Paks/SuperMeatBoy-WindowsNoEditor.pak added to pak precacher.
+[2018.07.27-11.21.02:676][  0]LogInit: Selected Device Profile: [WindowsNoEditor]
+[2018.07.27-11.21.02:701][  0]LogNetVersion: SuperMeatBoy , NetCL: 3944462, EngineNetVer: 2, GameNetVer: 0 (Checksum: 4170762998)
+[2018.07.27-11.21.02:866][  0]LogMoviePlayer: Initializing movie player
+[2018.07.27-11.21.03:058][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2018.07.27-11.21.03:058][  0]LogOcInput: OculusInput pre-init called
+[2018.07.27-11.21.03:063][  0]LogUObjectArray: 32291 objects as part of root set at end of initial load.
+[2018.07.27-11.21.03:063][  0]LogUObjectAllocator: 5970624 out of 0 bytes used by permanent object pool.
+[2018.07.27-11.21.03:063][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2018.07.27-11.21.03:074][  0]LogEngine: Initializing Engine...
+[2018.07.27-11.21.03:075][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2018.07.27-11.21.03:087][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2018.07.27-11.21.03:087][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2018.07.27-11.21.03:203][  0]LogInit: XAudio2 using 'LEN LT2452pwC (2- NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.07.27-11.21.03:302][  0]LogInit: FAudioDevice initialized.
+[2018.07.27-11.21.03:313][  0]LogInit: Texture streaming: Enabled
+[2018.07.27-11.21.03:319][  0]LogInit: Display: Game Engine Initialized.
+[2018.07.27-11.21.03:319][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2018.07.27-11.21.03:319][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2018.07.27-11.21.03:319][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2018.07.27-11.21.03:327][  0]LogInit: Display: Starting Game.
+[2018.07.27-11.21.03:327][  0]LogNet: Browse: /Game/Maps/LevelSelect?Name=Player
+[2018.07.27-11.21.03:327][  0]LogLoad: LoadMap: /Game/Maps/LevelSelect?Name=Player
+[2018.07.27-11.21.03:338][  0]LogAIModule: Creating AISystem for world LevelSelect
+[2018.07.27-11.21.03:352][  0]LogLoad: Game class is 'BP_SuperMeatBoyGameMode_C'
+[2018.07.27-11.21.03:353][  0]LogWorld: Bringing World /Game/Maps/LevelSelect.LevelSelect up for play (max tick rate 0) at 2018.07.27-19.21.03
+[2018.07.27-11.21.03:353][  0]LogWorld: Bringing up level for play took: 0.000309
+[2018.07.27-11.21.03:353][  0]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2018.07.27-11.21.03:355][  0]LogUMG: Display: Widget Class LevelSelect_C - Loaded Fast Template.
+[2018.07.27-11.21.03:355][  0]LogUMG: Display: Widget Class Menu_C - Loaded Fast Template.
+[2018.07.27-11.21.03:357][  0]LogLoad: Took 0.029210 seconds to LoadMap(/Game/Maps/LevelSelect)
+[2018.07.27-11.21.03:357][  0]LogSlate: Took 0.000083 seconds to synchronously load lazily loaded font '../../../Engine/Content/EngineFonts/Faces/RobotoBold.ufont' (160K)
+[2018.07.27-11.21.03:390][  0]LogLoad: (Engine Initialization) Total time: 1.99 seconds
+[2018.07.27-11.21.03:440][  0]LogRenderer: Reallocating scene render targets to support 1920x1200 Format 10 NumSamples 1 (Frame:1).
+[2018.07.27-11.21.03:477][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2018.07.27-11.21.04:056][ 36]LogTemp: Warning: Change Slot Position
+[2018.07.27-11.21.05:329][115]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.07.27-11.21.05:539][128]LogLevel: ActivateLevel /Game/Maps/Forest_1_1 1 1 1
+[2018.07.27-11.21.05:540][128]LogStreaming: Display: ULevelStreaming::RequestLevel(/Game/Maps/Forest_1_1) is flushing async loading
+[2018.07.27-11.21.05:543][128]LogTemp: Error: CheckPos:X=-1370.000 Y=-10.000 Z=2290.000
+[2018.07.27-11.21.05:543][128]LogTemp: Error: Check Pos:X=-1370.000 Y=-10.000 Z=2290.000
+[2018.07.27-11.21.05:543][128]LogTemp: Warning: Current Level:0
+[2018.07.27-11.21.05:543][128]LogLevel: Warning: Failed to find streaming level object associated with 'Forest_1_0'
+[2018.07.27-11.21.05:543][128]LogTemp: Warning: Collosion Genearte
+[2018.07.27-11.21.05:544][128]LogSlate: Took 0.000135 seconds to synchronously load lazily loaded font '../../../Engine/Content/EngineFonts/Faces/RobotoRegular.ufont' (155K)
+[2018.07.27-11.21.14:023][654]LogTemp: Error: Collosion Overlapping!
+[2018.07.27-11.21.14:023][654]LogTemp: Warning: LoadLevel
+[2018.07.27-11.21.14:024][654]LogLevel: ActivateLevel /Game/Maps/Forest_1_2 1 1 1
+[2018.07.27-11.21.14:025][654]LogStreaming: Display: ULevelStreaming::RequestLevel(/Game/Maps/Forest_1_2) is flushing async loading
+[2018.07.27-11.21.14:029][654]LogTemp: Error: CheckPos:X=2380.000 Y=-10.000 Z=2620.000
+[2018.07.27-11.21.14:029][654]LogTemp: Error: Check Pos:X=2380.000 Y=-10.000 Z=2620.000
+[2018.07.27-11.21.14:030][654]LogTemp: Warning: Current Level:1
+[2018.07.27-11.21.14:030][654]LogLevel: ActivateLevel /Game/Maps/Forest_1_1 0 0 1
+[2018.07.27-11.21.14:030][654]LogTemp: Warning: Collosion Genearte
+[2018.07.27-11.21.22:652][189]LogTemp: Error: Collosion Overlapping!
+[2018.07.27-11.21.22:652][189]LogTemp: Warning: LoadLevel
+[2018.07.27-11.21.22:652][189]LogLevel: ActivateLevel /Game/Maps/Forest_1_3 1 1 1
+[2018.07.27-11.21.22:653][189]LogStreaming: Display: ULevelStreaming::RequestLevel(/Game/Maps/Forest_1_3) is flushing async loading
+[2018.07.27-11.21.22:655][189]LogTemp: Error: CheckPos:X=8530.000 Y=-10.000 Z=8160.000
+[2018.07.27-11.21.22:655][189]LogTemp: Error: Check Pos:X=8530.000 Y=-10.000 Z=8160.000
+[2018.07.27-11.21.22:655][189]LogTemp: Warning: Current Level:2
+[2018.07.27-11.21.22:655][189]LogLevel: ActivateLevel /Game/Maps/Forest_1_2 0 0 1
+[2018.07.27-11.21.22:655][189]LogTemp: Warning: Collosion Genearte
+[2018.07.27-11.21.26:523][429]LogTemp: Error: Collosion Overlapping!
+[2018.07.27-11.21.26:523][429]LogTemp: Warning: LoadLevel
+[2018.07.27-11.21.26:523][429]LogLevel: ActivateLevel /Game/Maps/Forest_1_4 1 1 1
+[2018.07.27-11.21.26:525][429]LogStreaming: Display: ULevelStreaming::RequestLevel(/Game/Maps/Forest_1_4) is flushing async loading
+[2018.07.27-11.21.26:528][429]LogTemp: Error: CheckPos:X=9170.000 Y=-10.000 Z=3180.000
+[2018.07.27-11.21.26:529][429]LogTemp: Error: Check Pos:X=9170.000 Y=-10.000 Z=3180.000
+[2018.07.27-11.21.26:529][429]LogTemp: Warning: Current Level:3
+[2018.07.27-11.21.26:529][429]LogLevel: ActivateLevel /Game/Maps/Forest_1_3 0 0 1
+[2018.07.27-11.21.26:529][429]LogTemp: Warning: Collosion Genearte
+[2018.07.27-11.22.01:863][620]LogTemp: Error: Collosion Overlapping!
+[2018.07.27-11.22.01:863][620]LogTemp: Warning: LoadLevel
+[2018.07.27-11.22.01:863][620]LogLevel: ActivateLevel /Game/Maps/Forest_1_5 1 1 1
+[2018.07.27-11.22.01:865][620]LogStreaming: Display: ULevelStreaming::RequestLevel(/Game/Maps/Forest_1_5) is flushing async loading
+[2018.07.27-11.22.01:872][620]LogTemp: Error: CheckPos:X=14460.000 Y=-10.000 Z=3420.000
+[2018.07.27-11.22.01:872][620]LogTemp: Error: Check Pos:X=14460.000 Y=-10.000 Z=3420.000
+[2018.07.27-11.22.01:872][620]LogTemp: Warning: Current Level:4
+[2018.07.27-11.22.01:872][620]LogLevel: ActivateLevel /Game/Maps/Forest_1_4 0 0 1
+[2018.07.27-11.22.01:872][620]LogTemp: Warning: Collosion Genearte
+[2018.07.27-11.22.29:750][349]LogTemp: Error: Collosion Overlapping!
+[2018.07.27-11.22.29:750][349]LogTemp: Warning: LoadLevel
+[2018.07.27-11.22.29:750][349]LogLevel: ActivateLevel /Game/Maps/Forest_1_6 1 1 1
+[2018.07.27-11.22.29:751][349]LogStreaming: Display: ULevelStreaming::RequestLevel(/Game/Maps/Forest_1_6) is flushing async loading
+[2018.07.27-11.22.29:754][349]LogTemp: Error: CheckPos:X=3920.000 Y=-10.000 Z=7450.000
+[2018.07.27-11.22.29:754][349]LogTemp: Error: Check Pos:X=3920.000 Y=-10.000 Z=7450.000
+[2018.07.27-11.22.29:754][349]LogTemp: Warning: Current Level:5
+[2018.07.27-11.22.29:754][349]LogLevel: ActivateLevel /Game/Maps/Forest_1_5 0 0 1
+[2018.07.27-11.22.29:754][349]LogTemp: Warning: Collosion Genearte
+[2018.07.27-11.22.29:754][349]LogTemp: Warning: Collosion Genearte
+[2018.07.27-11.22.29:754][349]LogTemp: Warning: Collosion Genearte
+[2018.07.27-11.22.29:754][349]LogTemp: Warning: Collosion Genearte
+[2018.07.27-11.22.29:754][349]LogTemp: Warning: Collosion Genearte
+[2018.07.27-11.22.35:299][693]LogTemp: Error: Collosion Overlapping!
+[2018.07.27-11.22.35:299][693]LogTemp: Error: Check New Point!
+[2018.07.27-11.22.35:299][693]LogTemp: Error: CheckPos:X=4070.000 Y=-10.000 Z=8180.000
+[2018.07.27-11.22.43:928][228]LogTemp: Error: Collosion Overlapping!
+[2018.07.27-11.22.43:928][228]LogTemp: Warning: LoadLevel
+[2018.07.27-11.22.43:928][228]LogLevel: ActivateLevel /Game/Maps/Forest_1_7 1 1 1
+[2018.07.27-11.22.43:930][228]LogStreaming: Display: ULevelStreaming::RequestLevel(/Game/Maps/Forest_1_7) is flushing async loading
+[2018.07.27-11.22.43:940][228]LogTemp: Warning: Collosion Genearte
+[2018.07.27-11.22.43:940][228]LogTemp: Warning: Collosion Genearte
+[2018.07.27-11.22.43:940][228]LogTemp: Warning: Collosion Genearte
+[2018.07.27-11.22.43:940][228]LogTemp: Error: CheckPos:X=2250.000 Y=-10.000 Z=-140.000
+[2018.07.27-11.22.43:940][228]LogTemp: Error: Check Pos:X=2250.000 Y=-10.000 Z=-140.000
+[2018.07.27-11.22.43:940][228]LogTemp: Warning: Current Level:6
+[2018.07.27-11.22.43:940][228]LogLevel: ActivateLevel /Game/Maps/Forest_1_6 0 0 1
+[2018.07.27-11.22.43:940][228]LogTemp: Warning: Collosion Genearte
+[2018.07.27-11.22.43:940][228]LogTemp: Warning: Collosion Genearte
+[2018.07.27-11.22.48:122][488]LogTemp: Error: Collosion Overlapping!
+[2018.07.27-11.22.48:122][488]LogTemp: Error: Check New Point!
+[2018.07.27-11.22.48:122][488]LogTemp: Error: CheckPos:X=3430.000 Y=-10.000 Z=-230.000
+[2018.07.27-11.22.52:364][751]LogTemp: Error: Collosion Overlapping!
+[2018.07.27-11.22.52:944][787]LogTemp: Error: Collosion Overlapping!
+[2018.07.27-11.22.52:944][787]LogTemp: Warning: LoadLevel
+[2018.07.27-11.22.52:944][787]LogLevel: ActivateLevel /Game/Maps/Forest_1_8 1 1 1
+[2018.07.27-11.22.52:946][787]LogStreaming: Display: ULevelStreaming::RequestLevel(/Game/Maps/Forest_1_8) is flushing async loading
+[2018.07.27-11.22.52:969][787]LogTemp: Warning: Run Tree
+[2018.07.27-11.22.52:970][787]LogTemp: Warning: LeftLocation:X=20785.000 Y=-10.000 Z=-152.283 - RightLocation:X=21385.000 Y=-10.000 Z=-152.283
+[2018.07.27-11.22.52:970][787]LogTemp: Warning: Collosion Genearte
+[2018.07.27-11.22.52:970][787]LogTemp: Error: CheckPos:X=20460.000 Y=-10.000 Z=-140.000
+[2018.07.27-11.22.52:970][787]LogTemp: Error: Check Pos:X=20460.000 Y=-10.000 Z=-140.000
+[2018.07.27-11.22.52:970][787]LogTemp: Warning: Current Level:7
+[2018.07.27-11.22.52:970][787]LogLevel: ActivateLevel /Game/Maps/Forest_1_7 0 0 1
+[2018.07.27-11.22.52:970][787]LogTemp: Warning: Collosion Genearte
+[2018.07.27-11.22.52:970][787]LogTemp: Warning: Collosion Genearte
+[2018.07.27-11.22.54:649][892]LogTemp: Error: Collosion Overlapping!
+[2018.07.27-11.22.57:375][ 61]LogTemp: Error: Collosion Overlapping!
+[2018.07.27-11.22.57:778][ 86]LogTemp: Warning: Switch
+[2018.07.27-11.23.00:165][234]LogTemp: Error: Collosion Overlapping!
+[2018.07.27-11.23.02:891][403]LogTemp: Error: Collosion Overlapping!
+[2018.07.27-11.23.03:504][441]LogTemp: Warning: Switch
+[2018.07.27-11.23.05:681][576]LogTemp: Error: Collosion Overlapping!
+[2018.07.27-11.23.08:407][745]LogTemp: Error: Collosion Overlapping!
+[2018.07.27-11.23.09:198][794]LogTemp: Warning: Switch
+[2018.07.27-11.23.11:198][918]LogTemp: Error: Collosion Overlapping!
+[2018.07.27-11.23.12:988][ 29]LogTemp: Error: Overlap Begin
+[2018.07.27-11.23.13:923][ 87]LogTemp: Error: Collosion Overlapping!
+[2018.07.27-11.23.14:924][149]LogTemp: Warning: Switch
+[2018.07.27-11.23.16:230][230]LogTemp: Error: Overlap Begin
+[2018.07.27-11.23.16:714][260]LogTemp: Error: Collosion Overlapping!
+[2018.07.27-11.23.19:440][429]LogTemp: Error: Collosion Overlapping!
+[2018.07.27-11.23.20:553][498]LogTemp: Warning: Switch
+[2018.07.27-11.23.22:230][602]LogTemp: Error: Collosion Overlapping!
+[2018.07.27-11.23.24:956][771]LogTemp: Error: Collosion Overlapping!
+[2018.07.27-11.23.26:278][853]LogTemp: Warning: Switch
+[2018.07.27-11.23.27:230][912]LogTemp: Error: Collosion Overlapping!
+[2018.07.27-11.23.27:230][912]LogTemp: Warning: LoadLevel
+[2018.07.27-11.23.27:231][912]LogLevel: ActivateLevel /Game/Maps/GameWin 1 1 1
+[2018.07.27-11.23.27:232][912]LogStreaming: Display: ULevelStreaming::RequestLevel(/Game/Maps/GameWin) is flushing async loading
+[2018.07.27-11.23.27:239][912]LogTemp: Error: CheckPos:X=-4425.000 Y=0.000 Z=1180.000
+[2018.07.27-11.23.27:239][912]LogTemp: Error: Check Pos:X=-4425.000 Y=0.000 Z=1180.000
+[2018.07.27-11.23.27:239][912]LogTemp: Warning: Current Level:8
+[2018.07.27-11.23.27:239][912]LogLevel: ActivateLevel /Game/Maps/Forest_1_8 0 0 1
+[2018.07.27-11.23.27:263][914]LogTemp: Warning: UnPossess
+[2018.07.27-11.23.42:553][862]Closing by request
+[2018.07.27-11.23.42:553][862]LogWindows: FPlatformMisc::RequestExit(0)
+[2018.07.27-11.23.43:143][863]LogSlate: Request Window 'SuperMeatBoy (64-bit, PCD3D_SM5) ' being destroyed
+[2018.07.27-11.23.43:169][863]LogSlate: Window 'SuperMeatBoy (64-bit, PCD3D_SM5) ' being destroyed
+[2018.07.27-11.23.43:172][863]LogWindowsTextInputMethodSystem: Display: IME system now activated using TSF (微软拼音).
+[2018.07.27-11.23.43:185][863]LogSlate: Slate User Destroyed.  User Index 0, Is Virtual User: 0
+[2018.07.27-11.23.43:185][863]LogExit: Preparing to exit.
+[2018.07.27-11.23.43:185][863]LogMoviePlayer: Shutting down movie player
+[2018.07.27-11.23.43:190][863]LogExit: Game engine shut down
+[2018.07.27-11.23.43:210][863]LogExit: Object subsystem successfully closed.
+[2018.07.27-11.23.43:213][863]LogD3D11RHI: Shutdown
+[2018.07.27-11.23.43:213][863]LogD3D11RHI: CleanupD3DDevice
+[2018.07.27-11.23.43:215][863]LogD3D11RHI: ~FD3D11DynamicRHI
+[2018.07.27-11.23.43:215][863]LogModuleManager: Shutting down and abandoning module AutomationController (178)
+[2018.07.27-11.23.43:215][863]LogModuleManager: Shutting down and abandoning module AutomationWorker (176)
+[2018.07.27-11.23.43:215][863]LogModuleManager: Shutting down and abandoning module AIModule (174)
+[2018.07.27-11.23.43:215][863]LogModuleManager: Shutting down and abandoning module GameplayDebugger (173)
+[2018.07.27-11.23.43:215][863]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (170)
+[2018.07.27-11.23.43:215][863]LogModuleManager: Shutting down and abandoning module OpenExrWrapper (168)
+[2018.07.27-11.23.43:215][863]LogModuleManager: Shutting down and abandoning module ImgMediaFactory (166)
+[2018.07.27-11.23.43:215][863]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (164)
+[2018.07.27-11.23.43:215][863]LogModuleManager: Shutting down and abandoning module CharacterAI (162)
+[2018.07.27-11.23.43:215][863]LogModuleManager: Shutting down and abandoning module SessionServices (160)
+[2018.07.27-11.23.43:215][863]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (158)
+[2018.07.27-11.23.43:215][863]LogModuleManager: Shutting down and abandoning module MovieScene (156)
+[2018.07.27-11.23.43:215][863]LogModuleManager: Shutting down and abandoning module GeometryCache (154)
+[2018.07.27-11.23.43:215][863]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (152)
+[2018.07.27-11.23.43:215][863]LogModuleManager: Shutting down and abandoning module AnalyticsET (150)
+[2018.07.27-11.23.43:215][863]LogModuleManager: Shutting down and abandoning module ProfilerService (148)
+[2018.07.27-11.23.43:316][863]LogModuleManager: Shutting down and abandoning module TaskGraph (146)
+[2018.07.27-11.23.43:316][863]LogModuleManager: Shutting down and abandoning module SteamVRController (144)
+[2018.07.27-11.23.43:316][863]LogModuleManager: Shutting down and abandoning module OculusInput (142)
+[2018.07.27-11.23.43:316][863]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (140)
+[2018.07.27-11.23.43:316][863]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (138)
+[2018.07.27-11.23.43:316][863]LogModuleManager: Shutting down and abandoning module CableComponent (136)
+[2018.07.27-11.23.43:316][863]LogModuleManager: Shutting down and abandoning module AudioCapture (134)
+[2018.07.27-11.23.43:316][863]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (132)
+[2018.07.27-11.23.43:316][863]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (130)
+[2018.07.27-11.23.43:316][863]LogModuleManager: Shutting down and abandoning module AndroidPermission (128)
+[2018.07.27-11.23.43:316][863]LogModuleManager: Shutting down and abandoning module MediaCompositing (124)
+[2018.07.27-11.23.43:316][863]LogModuleManager: Shutting down and abandoning module LinearTimecode (122)
+[2018.07.27-11.23.43:316][863]LogModuleManager: Shutting down and abandoning module ImgMedia (120)
+[2018.07.27-11.23.43:317][863]LogModuleManager: Shutting down and abandoning module HTML5Networking (118)
+[2018.07.27-11.23.43:317][863]LogModuleManager: Shutting down and abandoning module DatasmithContent (116)
+[2018.07.27-11.23.43:317][863]LogModuleManager: Shutting down and abandoning module SuperMeatBoy (114)
+[2018.07.27-11.23.43:317][863]LogModuleManager: Shutting down and abandoning module RuntimePhysXCooking (112)
+[2018.07.27-11.23.43:317][863]LogModuleManager: Shutting down and abandoning module PhysXVehicles (110)
+[2018.07.27-11.23.43:317][863]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (108)
+[2018.07.27-11.23.43:317][863]LogModuleManager: Shutting down and abandoning module ImmediatePhysics (106)
+[2018.07.27-11.23.43:317][863]LogModuleManager: Shutting down and abandoning module LiveLink (104)
+[2018.07.27-11.23.44:028][863]LogModuleManager: Shutting down and abandoning module ActorSequence (102)
+[2018.07.27-11.23.44:028][863]LogModuleManager: Shutting down and abandoning module UdpMessaging (100)
+[2018.07.27-11.23.44:028][863]LogModuleManager: Shutting down and abandoning module TcpMessaging (98)
+[2018.07.27-11.23.44:028][863]LogModuleManager: Shutting down and abandoning module FacialAnimation (96)
+[2018.07.27-11.23.44:028][863]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (94)
+[2018.07.27-11.23.44:028][863]LogModuleManager: Shutting down and abandoning module Paper2D (92)
+[2018.07.27-11.23.44:028][863]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (90)
+[2018.07.27-11.23.44:028][863]LogModuleManager: Shutting down and abandoning module WmfMedia (88)
+[2018.07.27-11.23.44:029][863]LogModuleManager: Shutting down and abandoning module PacketHandler (86)
+[2018.07.27-11.23.44:029][863]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntime (84)
+[2018.07.27-11.23.44:029][863]LogModuleManager: Shutting down and abandoning module MediaAssets (82)
+[2018.07.27-11.23.44:029][863]LogModuleManager: Shutting down and abandoning module Overlay (80)
+[2018.07.27-11.23.44:029][863]LogModuleManager: Shutting down and abandoning module UMG (78)
+[2018.07.27-11.23.44:029][863]LogModuleManager: Shutting down and abandoning module SlateReflector (76)
+[2018.07.27-11.23.44:029][863]LogModuleManager: Shutting down and abandoning module Slate (74)
+[2018.07.27-11.23.44:029][863]LogModuleManager: Shutting down and abandoning module MRMesh (72)
+[2018.07.27-11.23.44:029][863]LogModuleManager: Shutting down and abandoning module Messaging (70)
+[2018.07.27-11.23.44:029][863]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (68)
+[2018.07.27-11.23.44:029][863]LogModuleManager: Shutting down and abandoning module XAudio2 (66)
+[2018.07.27-11.23.44:029][863]LogModuleManager: Shutting down and abandoning module Networking (64)
+[2018.07.27-11.23.44:029][863]LogModuleManager: Shutting down and abandoning module Core (62)
+[2018.07.27-11.23.44:029][863]LogModuleManager: Shutting down and abandoning module LevelSequence (60)
+[2018.07.27-11.23.44:029][863]LogModuleManager: Shutting down and abandoning module Media (58)
+[2018.07.27-11.23.44:035][863]LogModuleManager: Shutting down and abandoning module ImageWrapper (54)
+[2018.07.27-11.23.44:035][863]LogModuleManager: Shutting down and abandoning module InputCore (52)
+[2018.07.27-11.23.44:035][863]LogModuleManager: Shutting down and abandoning module PhysXCooking (50)
+[2018.07.27-11.23.44:035][863]LogModuleManager: Shutting down and abandoning module SteamVR (48)
+[2018.07.27-11.23.44:035][863]LogModuleManager: Shutting down and abandoning module OculusHMD (46)
+[2018.07.27-11.23.44:035][863]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (44)
+[2018.07.27-11.23.44:035][863]LogModuleManager: Shutting down and abandoning module AppleARKit (42)
+[2018.07.27-11.23.44:035][863]LogModuleManager: Shutting down and abandoning module AugmentedReality (39)
+[2018.07.27-11.23.44:035][863]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (34)
+[2018.07.27-11.23.44:035][863]LogModuleManager: Shutting down and abandoning module HTTP (33)
+[2018.07.27-11.23.44:036][863]LogHttp: Display: Http module shutting down, but needs to wait on 2 outstanding Http requests:
+[2018.07.27-11.23.44:036][863]LogHttp: Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B6C608EEF-4238-71D3-AB04-739B79BE2EE7%7D&AppID=UEGame.Rocket.Release%7C318BEB8D4380B68A06A1CF89DEF145BF%7C2D%20Side%20Scroller%20Game%20Template&AppVersion=4.19.2-4033788%2B%2B%2BUE4%2BRelease-4.19&UserID=ANON-%7BCA2BF2FE-40EC-D498-3F9F-9C991950068C%7D%7C%7C&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
+[2018.07.27-11.23.44:036][863]LogHttp: Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B6C608EEF-4238-71D3-AB04-739B79BE2EE7%7D&AppID=UEGame.Rocket.Release%7C318BEB8D4380B68A06A1CF89DEF145BF%7C2D%20Side%20Scroller%20Game%20Template&AppVersion=4.19.2-4033788%2B%2B%2BUE4%2BRelease-4.19&UserID=ANON-%7BCA2BF2FE-40EC-D498-3F9F-9C991950068C%7D%7C%7C&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
+[2018.07.27-11.23.44:036][863]LogHttp: Display: Sleeping 0.5s to wait for 2 outstanding Http requests.
+[2018.07.27-11.23.44:536][863]LogHttp: Display: Sleeping 0.5s to wait for 2 outstanding Http requests.
+[2018.07.27-11.23.45:036][863]LogHttp: Display: Sleeping 0.5s to wait for 2 outstanding Http requests.
+[2018.07.27-11.23.45:537][863]LogHttp: Display: Sleeping 0.5s to wait for 2 outstanding Http requests.
+[2018.07.27-11.23.46:037][863]LogHttp: Display: Sleeping 0.5s to wait for 2 outstanding Http requests.
+[2018.07.27-11.23.46:537][863]LogHttp: Display: Sleeping 0.5s to wait for 2 outstanding Http requests.
+[2018.07.27-11.23.47:038][863]LogHttp: Display: Sleeping 0.5s to wait for 2 outstanding Http requests.
+[2018.07.27-11.23.47:538][863]LogHttp: Display: Sleeping 0.5s to wait for 2 outstanding Http requests.
+[2018.07.27-11.23.48:038][863]LogHttp: Display: Sleeping 0.5s to wait for 2 outstanding Http requests.
+[2018.07.27-11.23.48:539][863]LogHttp: Display: Sleeping 0.5s to wait for 2 outstanding Http requests.
+[2018.07.27-11.23.49:039][863]LogHttp: Display: Sleeping 0.5s to wait for 2 outstanding Http requests.
+[2018.07.27-11.23.49:539][863]LogHttp: Display: Sleeping 0.5s to wait for 2 outstanding Http requests.
+[2018.07.27-11.23.50:040][863]LogHttp: Display: Sleeping 0.5s to wait for 2 outstanding Http requests.
+[2018.07.27-11.23.50:540][863]LogHttp: Display: Sleeping 0.5s to wait for 2 outstanding Http requests.
+[2018.07.27-11.23.51:040][863]LogHttp: Display: Sleeping 0.5s to wait for 2 outstanding Http requests.
+[2018.07.27-11.23.51:541][863]LogHttp: Display: Sleeping 0.5s to wait for 2 outstanding Http requests.
+[2018.07.27-11.23.52:041][863]LogHttp: Display: Sleeping 0.5s to wait for 2 outstanding Http requests.
+[2018.07.27-11.23.52:541][863]LogHttp: Display: Sleeping 0.5s to wait for 2 outstanding Http requests.
+[2018.07.27-11.23.53:042][863]LogHttp: Display: Sleeping 0.5s to wait for 2 outstanding Http requests.
+[2018.07.27-11.23.53:542][863]LogHttp: Display: Sleeping 0.5s to wait for 2 outstanding Http requests.
+[2018.07.27-11.23.54:042][863]LogHttp: Display: Sleeping 0.5s to wait for 2 outstanding Http requests.
+[2018.07.27-11.23.54:543][863]LogHttp: Display: Sleeping 0.5s to wait for 2 outstanding Http requests.
+[2018.07.27-11.23.55:043][863]LogHttp: Display: Sleeping 0.5s to wait for 2 outstanding Http requests.
+[2018.07.27-11.23.55:543][863]LogHttp: Display: Sleeping 0.5s to wait for 2 outstanding Http requests.
+[2018.07.27-11.23.56:044][863]LogHttp: Display: Sleeping 0.5s to wait for 2 outstanding Http requests.
+[2018.07.27-11.23.56:544][863]LogHttp: Display: Sleeping 0.5s to wait for 2 outstanding Http requests.
+[2018.07.27-11.23.57:044][863]LogHttp: Display: Sleeping 0.5s to wait for 2 outstanding Http requests.
+[2018.07.27-11.23.57:545][863]LogHttp: Display: Sleeping 0.5s to wait for 2 outstanding Http requests.
+[2018.07.27-11.23.58:045][863]LogHttp: Display: Sleeping 0.5s to wait for 2 outstanding Http requests.
+[2018.07.27-11.23.58:545][863]LogHttp: Display: Sleeping 0.5s to wait for 2 outstanding Http requests.
+[2018.07.27-11.23.59:046][863]LogHttp: Display: Sleeping 0.5s to wait for 2 outstanding Http requests.
+[2018.07.27-11.23.59:546][863]LogHttp: Display: Sleeping 0.5s to wait for 2 outstanding Http requests.
+[2018.07.27-11.24.00:046][863]LogHttp: Display: Sleeping 0.5s to wait for 2 outstanding Http requests.
+[2018.07.27-11.24.00:547][863]LogHttp: Display: Sleeping 0.5s to wait for 2 outstanding Http requests.
+[2018.07.27-11.24.01:047][863]LogHttp: Display: Sleeping 0.5s to wait for 2 outstanding Http requests.
+[2018.07.27-11.24.01:547][863]LogHttp: Display: Sleeping 0.5s to wait for 2 outstanding Http requests.
+[2018.07.27-11.24.02:048][863]LogHttp: Display: Sleeping 0.5s to wait for 2 outstanding Http requests.
+[2018.07.27-11.24.02:548][863]LogHttp: Display: Sleeping 0.5s to wait for 2 outstanding Http requests.
+[2018.07.27-11.24.03:048][863]LogHttp: Display: Sleeping 0.5s to wait for 2 outstanding Http requests.
+[2018.07.27-11.24.03:549][863]LogHttp: Display: Sleeping 0.5s to wait for 2 outstanding Http requests.
+[2018.07.27-11.24.04:049][863]LogHttp: Display: Sleeping 0.5s to wait for 2 outstanding Http requests.
+[2018.07.27-11.24.04:549][863]LogHttp: Display: Sleeping 0.5s to wait for 2 outstanding Http requests.
+[2018.07.27-11.24.05:050][863]LogHttp: Display: Sleeping 0.5s to wait for 2 outstanding Http requests.
+[2018.07.27-11.24.05:550][863]LogHttp: Display: Sleeping 0.5s to wait for 2 outstanding Http requests.
+[2018.07.27-11.24.06:050][863]LogHttp: Display: Sleeping 0.5s to wait for 2 outstanding Http requests.
+[2018.07.27-11.24.06:551][863]LogHttp: Display: Sleeping 0.5s to wait for 2 outstanding Http requests.
+[2018.07.27-11.24.07:051][863]LogHttp: Display: Sleeping 0.5s to wait for 2 outstanding Http requests.
+[2018.07.27-11.24.07:551][863]LogHttp: Display: Sleeping 0.5s to wait for 2 outstanding Http requests.
+[2018.07.27-11.24.08:051][863]LogHttp: Display: Sleeping 0.5s to wait for 2 outstanding Http requests.
+[2018.07.27-11.24.08:552][863]LogHttp: Display: Sleeping 0.5s to wait for 2 outstanding Http requests.
+[2018.07.27-11.24.09:052][863]LogHttp: Display: Sleeping 0.5s to wait for 2 outstanding Http requests.
+[2018.07.27-11.24.09:553][863]LogHttp: Display: Sleeping 0.5s to wait for 2 outstanding Http requests.
+[2018.07.27-11.24.10:053][863]LogHttp: Display: Sleeping 0.5s to wait for 2 outstanding Http requests.
+[2018.07.27-11.24.10:553][863]LogHttp: Display: Sleeping 0.5s to wait for 2 outstanding Http requests.
+[2018.07.27-11.24.11:054][863]LogHttp: Display: Sleeping 0.5s to wait for 2 outstanding Http requests.
+[2018.07.27-11.24.11:554][863]LogHttp: Display: Sleeping 0.5s to wait for 2 outstanding Http requests.
+[2018.07.27-11.24.12:054][863]LogHttp: Display: Sleeping 0.5s to wait for 2 outstanding Http requests.
+[2018.07.27-11.24.12:554][863]LogHttp: Display: Sleeping 0.5s to wait for 2 outstanding Http requests.
+[2018.07.27-11.24.13:055][863]LogHttp: Display: Sleeping 0.5s to wait for 2 outstanding Http requests.
+[2018.07.27-11.24.13:555][863]LogHttp: Display: Sleeping 0.5s to wait for 2 outstanding Http requests.
+[2018.07.27-11.24.14:056][863]LogHttp: Display: Sleeping 0.5s to wait for 2 outstanding Http requests.
+[2018.07.27-11.24.14:556][863]LogHttp: Display: Sleeping 0.5s to wait for 2 outstanding Http requests.
+[2018.07.27-11.24.15:056][863]LogHttp: Display: Sleeping 0.5s to wait for 2 outstanding Http requests.
+[2018.07.27-11.24.15:556][863]LogHttp: Display: Sleeping 0.5s to wait for 2 outstanding Http requests.
+[2018.07.27-11.24.16:057][863]LogHttp: Display: Sleeping 0.5s to wait for 2 outstanding Http requests.
+[2018.07.27-11.24.16:557][863]LogHttp: Display: Sleeping 0.5s to wait for 2 outstanding Http requests.
+[2018.07.27-11.24.17:057][863]LogHttp: Display: Sleeping 0.5s to wait for 2 outstanding Http requests.
+[2018.07.27-11.24.17:558][863]LogHttp: Display: Sleeping 0.5s to wait for 2 outstanding Http requests.
+[2018.07.27-11.24.18:058][863]LogHttp: Display: Sleeping 0.5s to wait for 2 outstanding Http requests.
+[2018.07.27-11.24.18:558][863]LogHttp: Display: Sleeping 0.5s to wait for 2 outstanding Http requests.
+[2018.07.27-11.24.19:059][863]LogHttp: Display: Sleeping 0.5s to wait for 2 outstanding Http requests.
+[2018.07.27-11.24.19:559][863]LogHttp: Display: Sleeping 0.5s to wait for 2 outstanding Http requests.
+[2018.07.27-11.24.20:059][863]LogHttp: Display: Sleeping 0.5s to wait for 2 outstanding Http requests.
+[2018.07.27-11.24.20:560][863]LogHttp: Display: Sleeping 0.5s to wait for 2 outstanding Http requests.
+[2018.07.27-11.24.21:061][863]LogHttp: Display: Sleeping 0.5s to wait for 2 outstanding Http requests.
+[2018.07.27-11.24.21:561][863]LogHttp: Display: Sleeping 0.5s to wait for 2 outstanding Http requests.
+[2018.07.27-11.24.22:062][863]LogHttp: Display: Sleeping 0.5s to wait for 2 outstanding Http requests.
+[2018.07.27-11.24.22:562][863]LogHttp: Display: Sleeping 0.5s to wait for 2 outstanding Http requests.
+[2018.07.27-11.24.23:062][863]LogHttp: Display: Sleeping 0.5s to wait for 2 outstanding Http requests.
+[2018.07.27-11.24.23:563][863]LogHttp: Display: Sleeping 0.5s to wait for 2 outstanding Http requests.
+[2018.07.27-11.24.24:063][863]LogHttp: Display: Sleeping 0.5s to wait for 2 outstanding Http requests.
+[2018.07.27-11.24.24:563][863]LogHttp: Display: Sleeping 0.5s to wait for 2 outstanding Http requests.
+[2018.07.27-11.24.25:064][863]LogHttp: Display: Sleeping 0.5s to wait for 2 outstanding Http requests.
+[2018.07.27-11.24.25:564][863]LogHttp: Display: Sleeping 0.5s to wait for 2 outstanding Http requests.
+[2018.07.27-11.24.26:064][863]LogHttp: Display: Sleeping 0.5s to wait for 2 outstanding Http requests.
+[2018.07.27-11.24.26:565][863]LogHttp: Display: Sleeping 0.5s to wait for 2 outstanding Http requests.
+[2018.07.27-11.24.27:065][863]LogHttp: Display: Sleeping 0.5s to wait for 2 outstanding Http requests.
+[2018.07.27-11.24.27:565][863]LogHttp: Display: Sleeping 0.5s to wait for 2 outstanding Http requests.
+[2018.07.27-11.24.28:066][863]LogHttp: Display: Sleeping 0.5s to wait for 2 outstanding Http requests.
+[2018.07.27-11.24.28:566][863]LogHttp: Display: Sleeping 0.5s to wait for 2 outstanding Http requests.
+[2018.07.27-11.24.29:067][863]LogHttp: Display: Sleeping 0.5s to wait for 2 outstanding Http requests.
+[2018.07.27-11.24.29:569][863]LogHttp: Display: Sleeping 0.5s to wait for 2 outstanding Http requests.
+[2018.07.27-11.24.30:069][863]LogHttp: Display: Sleeping 0.5s to wait for 2 outstanding Http requests.
+[2018.07.27-11.24.30:569][863]LogHttp: Display: Sleeping 0.5s to wait for 2 outstanding Http requests.
+[2018.07.27-11.24.31:070][863]LogHttp: Display: Sleeping 0.5s to wait for 2 outstanding Http requests.
+[2018.07.27-11.24.31:570][863]LogHttp: Display: Sleeping 0.5s to wait for 2 outstanding Http requests.
+[2018.07.27-11.24.32:071][863]LogHttp: Display: Sleeping 0.5s to wait for 2 outstanding Http requests.
+[2018.07.27-11.24.32:571][863]LogHttp: Display: Sleeping 0.5s to wait for 2 outstanding Http requests.
+[2018.07.27-11.24.33:071][863]LogHttp: Display: Sleeping 0.5s to wait for 2 outstanding Http requests.
+[2018.07.27-11.24.33:572][863]LogHttp: Display: Sleeping 0.5s to wait for 2 outstanding Http requests.
+[2018.07.27-11.24.34:072][863]LogHttp: Display: Sleeping 0.5s to wait for 2 outstanding Http requests.
+[2018.07.27-11.24.34:572][863]LogHttp: Display: Sleeping 0.5s to wait for 2 outstanding Http requests.
+[2018.07.27-11.24.35:073][863]LogHttp: Display: Sleeping 0.5s to wait for 2 outstanding Http requests.
+[2018.07.27-11.24.35:573][863]LogHttp: Display: Sleeping 0.5s to wait for 2 outstanding Http requests.
+[2018.07.27-11.24.36:073][863]LogHttp: Display: Sleeping 0.5s to wait for 2 outstanding Http requests.
+[2018.07.27-11.24.36:574][863]LogHttp: Display: Sleeping 0.5s to wait for 2 outstanding Http requests.
+[2018.07.27-11.24.37:074][863]LogHttp: Display: Sleeping 0.5s to wait for 2 outstanding Http requests.
+[2018.07.27-11.24.37:574][863]LogHttp: Display: Sleeping 0.5s to wait for 2 outstanding Http requests.
+[2018.07.27-11.24.38:075][863]LogHttp: Display: Sleeping 0.5s to wait for 2 outstanding Http requests.
+[2018.07.27-11.24.38:575][863]LogHttp: Display: Sleeping 0.5s to wait for 2 outstanding Http requests.
+[2018.07.27-11.24.39:075][863]LogHttp: Display: Sleeping 0.5s to wait for 2 outstanding Http requests.
+[2018.07.27-11.24.39:576][863]LogHttp: Display: Sleeping 0.5s to wait for 2 outstanding Http requests.
+[2018.07.27-11.24.40:076][863]LogHttp: Display: Sleeping 0.5s to wait for 2 outstanding Http requests.
+[2018.07.27-11.24.40:576][863]LogHttp: Display: Sleeping 0.5s to wait for 2 outstanding Http requests.
+[2018.07.27-11.24.41:077][863]LogHttp: Display: Sleeping 0.5s to wait for 2 outstanding Http requests.
+[2018.07.27-11.24.41:577][863]LogHttp: Display: Sleeping 0.5s to wait for 2 outstanding Http requests.
+[2018.07.27-11.24.42:077][863]LogHttp: Display: Sleeping 0.5s to wait for 2 outstanding Http requests.
+[2018.07.27-11.24.42:579][863]LogHttp: Display: Sleeping 0.5s to wait for 2 outstanding Http requests.
+[2018.07.27-11.24.43:079][863]LogHttp: Display: Sleeping 0.5s to wait for 2 outstanding Http requests.
+[2018.07.27-11.24.43:579][863]LogHttp: Display: Sleeping 0.5s to wait for 2 outstanding Http requests.
+[2018.07.27-11.24.44:080][863]LogHttp: Display: Sleeping 0.5s to wait for 2 outstanding Http requests.
+[2018.07.27-11.24.44:580][863]LogHttp: Display: Sleeping 0.5s to wait for 2 outstanding Http requests.
+[2018.07.27-11.24.45:080][863]LogHttp: Display: Sleeping 0.5s to wait for 2 outstanding Http requests.
+[2018.07.27-11.24.45:582][863]LogHttp: Display: Sleeping 0.5s to wait for 2 outstanding Http requests.
+[2018.07.27-11.24.46:082][863]LogHttp: Display: Sleeping 0.5s to wait for 2 outstanding Http requests.
+[2018.07.27-11.24.46:582][863]LogHttp: Display: Sleeping 0.5s to wait for 2 outstanding Http requests.
+[2018.07.27-11.24.47:083][863]LogHttp: Display: Sleeping 0.5s to wait for 2 outstanding Http requests.
+[2018.07.27-11.24.47:583][863]LogHttp: Display: Sleeping 0.5s to wait for 2 outstanding Http requests.
+[2018.07.27-11.24.48:083][863]LogHttp: Display: Sleeping 0.5s to wait for 2 outstanding Http requests.
+[2018.07.27-11.24.48:584][863]LogHttp: Display: Sleeping 0.5s to wait for 2 outstanding Http requests.
+[2018.07.27-11.24.49:084][863]LogHttp: Display: Sleeping 0.5s to wait for 2 outstanding Http requests.
+[2018.07.27-11.24.49:584][863]LogHttp: Display: Sleeping 0.5s to wait for 2 outstanding Http requests.
+[2018.07.27-11.24.50:085][863]LogHttp: Display: Sleeping 0.5s to wait for 2 outstanding Http requests.
+[2018.07.27-11.24.50:585][863]LogHttp: Display: Sleeping 0.5s to wait for 2 outstanding Http requests.
+[2018.07.27-11.24.51:085][863]LogHttp: Display: Sleeping 0.5s to wait for 2 outstanding Http requests.
+[2018.07.27-11.24.51:586][863]LogHttp: Display: Sleeping 0.5s to wait for 2 outstanding Http requests.
+[2018.07.27-11.24.52:086][863]LogHttp: Display: Sleeping 0.5s to wait for 2 outstanding Http requests.
+[2018.07.27-11.24.52:586][863]LogHttp: Display: Sleeping 0.5s to wait for 2 outstanding Http requests.
+[2018.07.27-11.24.53:087][863]LogHttp: Display: Sleeping 0.5s to wait for 2 outstanding Http requests.
+[2018.07.27-11.24.53:587][863]LogHttp: Display: Sleeping 0.5s to wait for 2 outstanding Http requests.
+[2018.07.27-11.24.54:087][863]LogHttp: Display: Sleeping 0.5s to wait for 2 outstanding Http requests.
+[2018.07.27-11.24.54:588][863]LogHttp: Display: Sleeping 0.5s to wait for 2 outstanding Http requests.
+[2018.07.27-11.24.55:088][863]LogHttp: Display: Sleeping 0.5s to wait for 2 outstanding Http requests.
+[2018.07.27-11.24.55:588][863]LogHttp: Display: Sleeping 0.5s to wait for 2 outstanding Http requests.
+[2018.07.27-11.24.56:089][863]LogHttp: Display: Sleeping 0.5s to wait for 2 outstanding Http requests.
+[2018.07.27-11.24.56:589][863]LogHttp: Display: Sleeping 0.5s to wait for 2 outstanding Http requests.
+[2018.07.27-11.24.57:090][863]LogHttp: Display: Sleeping 0.5s to wait for 2 outstanding Http requests.
+[2018.07.27-11.24.57:591][863]LogHttp: Display: Sleeping 0.5s to wait for 2 outstanding Http requests.
+[2018.07.27-11.24.58:091][863]LogHttp: Display: Sleeping 0.5s to wait for 2 outstanding Http requests.
+[2018.07.27-11.24.58:591][863]LogHttp: Display: Sleeping 0.5s to wait for 2 outstanding Http requests.
+[2018.07.27-11.24.59:092][863]LogHttp: Display: Sleeping 0.5s to wait for 2 outstanding Http requests.
+[2018.07.27-11.24.59:593][863]LogHttp: Display: Sleeping 0.5s to wait for 2 outstanding Http requests.
+[2018.07.27-11.25.00:093][863]LogHttp: Display: Sleeping 0.5s to wait for 2 outstanding Http requests.
+[2018.07.27-11.25.00:594][863]LogHttp: Display: Sleeping 0.5s to wait for 2 outstanding Http requests.
+[2018.07.27-11.25.01:094][863]LogHttp: Display: Sleeping 0.5s to wait for 2 outstanding Http requests.
+[2018.07.27-11.25.01:594][863]LogHttp: Display: Sleeping 0.5s to wait for 2 outstanding Http requests.
+[2018.07.27-11.25.02:095][863]LogHttp: Display: Sleeping 0.5s to wait for 2 outstanding Http requests.
+[2018.07.27-11.25.02:595][863]LogHttp: Display: Sleeping 0.5s to wait for 2 outstanding Http requests.
+[2018.07.27-11.25.03:095][863]LogHttp: Display: Sleeping 0.5s to wait for 2 outstanding Http requests.
+[2018.07.27-11.25.03:596][863]LogHttp: Warning: 000002629EAC0400: HTTP request timed out after 180.00 seconds URL=https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B6C608EEF-4238-71D3-AB04-739B79BE2EE7%7D&AppID=UEGame.Rocket.Release%7C318BEB8D4380B68A06A1CF89DEF145BF%7C2D%20Side%20Scroller%20Game%20Template&AppVersion=4.19.2-4033788%2B%2B%2BUE4%2BRelease-4.19&UserID=ANON-%7BCA2BF2FE-40EC-D498-3F9F-9C991950068C%7D%7C%7C&AppEnvironment=datacollector-binary&UploadType=eteventstream
+[2018.07.27-11.25.03:596][863]LogHttp: Warning: 000002629EAC0400: request failed, libcurl error: 0 (No error)
+[2018.07.27-11.25.03:596][863]LogHttp: Warning: 000002629EAC0400: libcurl info message cache 0 (  Trying 34.202.96.104...)
+[2018.07.27-11.25.03:596][863]LogHttp: Warning: 000002629EAC0400: libcurl info message cache 1 (connect to 34.202.96.104 port 443 failed: Timed out)
+[2018.07.27-11.25.03:596][863]LogHttp: Warning: 000002629EAC0400: libcurl info message cache 2 (  Trying 34.196.109.155...)
+[2018.07.27-11.25.03:596][863]LogHttp: Warning: 000002629EAC0400: libcurl info message cache 3 (connect to 34.196.109.155 port 443 failed: Timed out)
+[2018.07.27-11.25.03:596][863]LogHttp: Warning: 000002629EAC0400: libcurl info message cache 4 (  Trying 52.4.186.227...)
+[2018.07.27-11.25.03:596][863]LogHttp: Warning: 000002629EAC0400: libcurl info message cache 5 (connect to 52.4.186.227 port 443 failed: Timed out)
+[2018.07.27-11.25.03:596][863]LogHttp: Warning: 000002629EAC0400: libcurl info message cache 6 (  Trying 35.153.154.4...)
+[2018.07.27-11.25.03:596][863]LogHttp: Warning: 000002629EAC0400: libcurl info message cache 7 (connect to 35.153.154.4 port 443 failed: Timed out)
+[2018.07.27-11.25.03:596][863]LogHttp: Warning: 000002629EAC0400: libcurl info message cache 8 (  Trying 34.236.48.119...)
+[2018.07.27-11.25.03:596][863]LogHttp: Warning: 000002629EAC0400: libcurl info message cache 9 (connect to 34.236.48.119 port 443 failed: Timed out)
+[2018.07.27-11.25.03:596][863]LogHttp: Warning: 000002629EAC0400: libcurl info message cache 10 (  Trying 52.4.200.136...)
+[2018.07.27-11.25.03:596][863]LogHttp: Warning: 000002629EAC0400: libcurl info message cache 11 (connect to 52.4.200.136 port 443 failed: Timed out)
+[2018.07.27-11.25.03:596][863]LogHttp: Warning: 000002629EAC0400: libcurl info message cache 12 (  Trying 34.236.247.226...)
+[2018.07.27-11.25.03:597][863]LogHttp: Warning: 000002629EAC0400: libcurl info message cache 13 (connect to 34.236.247.226 port 443 failed: Timed out)
+[2018.07.27-11.25.03:597][863]LogHttp: Warning: 000002629EAC0400: libcurl info message cache 14 (  Trying 52.5.135.24...)
+[2018.07.27-11.25.03:597][863]LogHttp: Warning: 000002629EAC0400: libcurl info message cache 15 (connect to 52.5.135.24 port 443 failed: Timed out)
+[2018.07.27-11.25.03:597][863]LogHttp: Warning: 000002629EAC0400: libcurl info message cache 16 (  Trying 34.202.96.104...)
+[2018.07.27-11.25.03:597][863]LogHttp: Warning: 000002629EAC0400: libcurl info message cache 17 (Closing connection 0)
+[2018.07.27-11.25.03:597][863]LogHttp: Display: Sleeping 0.5s to wait for 1 outstanding Http requests.
+[2018.07.27-11.25.04:097][863]LogHttp: Display: Sleeping 0.5s to wait for 1 outstanding Http requests.
+[2018.07.27-11.25.04:597][863]LogHttp: Display: Sleeping 0.5s to wait for 1 outstanding Http requests.
+[2018.07.27-11.25.05:098][863]LogHttp: Display: Sleeping 0.5s to wait for 1 outstanding Http requests.
+[2018.07.27-11.25.05:598][863]LogHttp: Display: Sleeping 0.5s to wait for 1 outstanding Http requests.
+[2018.07.27-11.25.06:098][863]LogHttp: Display: Sleeping 0.5s to wait for 1 outstanding Http requests.
+[2018.07.27-11.25.06:599][863]LogHttp: Display: Sleeping 0.5s to wait for 1 outstanding Http requests.
+[2018.07.27-11.25.07:099][863]LogHttp: Display: Sleeping 0.5s to wait for 1 outstanding Http requests.
+[2018.07.27-11.25.07:599][863]LogHttp: Display: Sleeping 0.5s to wait for 1 outstanding Http requests.
+[2018.07.27-11.25.08:100][863]LogHttp: Display: Sleeping 0.5s to wait for 1 outstanding Http requests.
+[2018.07.27-11.25.08:600][863]LogHttp: Display: Sleeping 0.5s to wait for 1 outstanding Http requests.
+[2018.07.27-11.25.09:100][863]LogHttp: Display: Sleeping 0.5s to wait for 1 outstanding Http requests.
+[2018.07.27-11.25.09:601][863]LogHttp: Display: Sleeping 0.5s to wait for 1 outstanding Http requests.
+[2018.07.27-11.25.10:101][863]LogHttp: Display: Sleeping 0.5s to wait for 1 outstanding Http requests.
+[2018.07.27-11.25.10:602][863]LogHttp: Display: Sleeping 0.5s to wait for 1 outstanding Http requests.
+[2018.07.27-11.25.11:102][863]LogHttp: Display: Sleeping 0.5s to wait for 1 outstanding Http requests.
+[2018.07.27-11.25.11:602][863]LogHttp: Display: Sleeping 0.5s to wait for 1 outstanding Http requests.
+[2018.07.27-11.25.12:103][863]LogHttp: Display: Sleeping 0.5s to wait for 1 outstanding Http requests.
+[2018.07.27-11.25.12:603][863]LogHttp: Display: Sleeping 0.5s to wait for 1 outstanding Http requests.
+[2018.07.27-11.25.13:103][863]LogHttp: Display: Sleeping 0.5s to wait for 1 outstanding Http requests.
+[2018.07.27-11.25.13:604][863]LogHttp: Display: Sleeping 0.5s to wait for 1 outstanding Http requests.
+[2018.07.27-11.25.14:104][863]LogHttp: Display: Sleeping 0.5s to wait for 1 outstanding Http requests.
+[2018.07.27-11.25.14:604][863]LogHttp: Display: Sleeping 0.5s to wait for 1 outstanding Http requests.
+[2018.07.27-11.25.15:105][863]LogHttp: Display: Sleeping 0.5s to wait for 1 outstanding Http requests.
+[2018.07.27-11.25.15:605][863]LogHttp: Display: Sleeping 0.5s to wait for 1 outstanding Http requests.
+[2018.07.27-11.25.16:105][863]LogHttp: Display: Sleeping 0.5s to wait for 1 outstanding Http requests.
+[2018.07.27-11.25.16:606][863]LogHttp: Display: Sleeping 0.5s to wait for 1 outstanding Http requests.
+[2018.07.27-11.25.17:106][863]LogHttp: Display: Sleeping 0.5s to wait for 1 outstanding Http requests.
+[2018.07.27-11.25.17:606][863]LogHttp: Display: Sleeping 0.5s to wait for 1 outstanding Http requests.
+[2018.07.27-11.25.18:107][863]LogHttp: Display: Sleeping 0.5s to wait for 1 outstanding Http requests.
+[2018.07.27-11.25.18:607][863]LogHttp: Display: Sleeping 0.5s to wait for 1 outstanding Http requests.
+[2018.07.27-11.25.19:107][863]LogHttp: Display: Sleeping 0.5s to wait for 1 outstanding Http requests.
+[2018.07.27-11.25.19:608][863]LogHttp: Display: Sleeping 0.5s to wait for 1 outstanding Http requests.
+[2018.07.27-11.25.20:108][863]LogHttp: Display: Sleeping 0.5s to wait for 1 outstanding Http requests.
+[2018.07.27-11.25.20:608][863]LogHttp: Display: Sleeping 0.5s to wait for 1 outstanding Http requests.
+[2018.07.27-11.25.21:109][863]LogHttp: Display: Sleeping 0.5s to wait for 1 outstanding Http requests.
+[2018.07.27-11.25.21:609][863]LogHttp: Display: Sleeping 0.5s to wait for 1 outstanding Http requests.
+[2018.07.27-11.25.22:109][863]LogHttp: Display: Sleeping 0.5s to wait for 1 outstanding Http requests.
+[2018.07.27-11.25.22:610][863]LogHttp: Display: Sleeping 0.5s to wait for 1 outstanding Http requests.
+[2018.07.27-11.25.23:110][863]LogHttp: Display: Sleeping 0.5s to wait for 1 outstanding Http requests.
+[2018.07.27-11.25.23:610][863]LogHttp: Display: Sleeping 0.5s to wait for 1 outstanding Http requests.
+[2018.07.27-11.25.24:111][863]LogHttp: Display: Sleeping 0.5s to wait for 1 outstanding Http requests.
+[2018.07.27-11.25.24:611][863]LogHttp: Display: Sleeping 0.5s to wait for 1 outstanding Http requests.
+[2018.07.27-11.25.25:111][863]LogHttp: Display: Sleeping 0.5s to wait for 1 outstanding Http requests.
+[2018.07.27-11.25.25:612][863]LogHttp: Display: Sleeping 0.5s to wait for 1 outstanding Http requests.
+[2018.07.27-11.25.26:112][863]LogHttp: Display: Sleeping 0.5s to wait for 1 outstanding Http requests.
+[2018.07.27-11.25.26:612][863]LogHttp: Display: Sleeping 0.5s to wait for 1 outstanding Http requests.
+[2018.07.27-11.25.27:113][863]LogHttp: Display: Sleeping 0.5s to wait for 1 outstanding Http requests.
+[2018.07.27-11.25.27:613][863]LogHttp: Display: Sleeping 0.5s to wait for 1 outstanding Http requests.
+[2018.07.27-11.25.28:113][863]LogHttp: Display: Sleeping 0.5s to wait for 1 outstanding Http requests.
+[2018.07.27-11.25.28:614][863]LogHttp: Display: Sleeping 0.5s to wait for 1 outstanding Http requests.
+[2018.07.27-11.25.29:114][863]LogHttp: Display: Sleeping 0.5s to wait for 1 outstanding Http requests.
+[2018.07.27-11.25.29:614][863]LogHttp: Display: Sleeping 0.5s to wait for 1 outstanding Http requests.
+[2018.07.27-11.25.30:115][863]LogHttp: Display: Sleeping 0.5s to wait for 1 outstanding Http requests.
+[2018.07.27-11.25.30:615][863]LogHttp: Display: Sleeping 0.5s to wait for 1 outstanding Http requests.
+[2018.07.27-11.25.31:115][863]LogHttp: Display: Sleeping 0.5s to wait for 1 outstanding Http requests.
+[2018.07.27-11.25.31:616][863]LogHttp: Display: Sleeping 0.5s to wait for 1 outstanding Http requests.
+[2018.07.27-11.25.32:116][863]LogHttp: Display: Sleeping 0.5s to wait for 1 outstanding Http requests.
+[2018.07.27-11.25.32:616][863]LogHttp: Display: Sleeping 0.5s to wait for 1 outstanding Http requests.
+[2018.07.27-11.25.33:117][863]LogHttp: Display: Sleeping 0.5s to wait for 1 outstanding Http requests.
+[2018.07.27-11.25.33:617][863]LogHttp: Display: Sleeping 0.5s to wait for 1 outstanding Http requests.
+[2018.07.27-11.25.34:117][863]LogHttp: Display: Sleeping 0.5s to wait for 1 outstanding Http requests.
+[2018.07.27-11.25.34:618][863]LogHttp: Display: Sleeping 0.5s to wait for 1 outstanding Http requests.
+[2018.07.27-11.25.35:118][863]LogHttp: Display: Sleeping 0.5s to wait for 1 outstanding Http requests.
+[2018.07.27-11.25.35:618][863]LogHttp: Display: Sleeping 0.5s to wait for 1 outstanding Http requests.
+[2018.07.27-11.25.36:119][863]LogHttp: Display: Sleeping 0.5s to wait for 1 outstanding Http requests.
+[2018.07.27-11.25.36:619][863]LogHttp: Display: Sleeping 0.5s to wait for 1 outstanding Http requests.
+[2018.07.27-11.25.37:119][863]LogHttp: Display: Sleeping 0.5s to wait for 1 outstanding Http requests.
+[2018.07.27-11.25.37:620][863]LogHttp: Display: Sleeping 0.5s to wait for 1 outstanding Http requests.
+[2018.07.27-11.25.38:120][863]LogHttp: Display: Sleeping 0.5s to wait for 1 outstanding Http requests.
+[2018.07.27-11.25.38:620][863]LogHttp: Display: Sleeping 0.5s to wait for 1 outstanding Http requests.
+[2018.07.27-11.25.39:121][863]LogHttp: Display: Sleeping 0.5s to wait for 1 outstanding Http requests.
+[2018.07.27-11.25.39:621][863]LogHttp: Display: Sleeping 0.5s to wait for 1 outstanding Http requests.
+[2018.07.27-11.25.40:121][863]LogHttp: Display: Sleeping 0.5s to wait for 1 outstanding Http requests.
+[2018.07.27-11.25.40:622][863]LogHttp: Display: Sleeping 0.5s to wait for 1 outstanding Http requests.
+[2018.07.27-11.25.41:122][863]LogHttp: Display: Sleeping 0.5s to wait for 1 outstanding Http requests.
+[2018.07.27-11.25.41:622][863]LogHttp: Display: Sleeping 0.5s to wait for 1 outstanding Http requests.
+[2018.07.27-11.25.42:123][863]LogHttp: Display: Sleeping 0.5s to wait for 1 outstanding Http requests.
+[2018.07.27-11.25.42:623][863]LogHttp: Display: Sleeping 0.5s to wait for 1 outstanding Http requests.
+[2018.07.27-11.25.43:124][863]LogHttp: Display: Sleeping 0.5s to wait for 1 outstanding Http requests.
+[2018.07.27-11.25.43:624][863]LogHttp: Display: Sleeping 0.5s to wait for 1 outstanding Http requests.
+[2018.07.27-11.25.44:125][863]LogHttp: Display: Sleeping 0.5s to wait for 1 outstanding Http requests.
+[2018.07.27-11.25.44:625][863]LogHttp: Display: Sleeping 0.5s to wait for 1 outstanding Http requests.
+[2018.07.27-11.25.45:126][863]LogHttp: Display: Sleeping 0.5s to wait for 1 outstanding Http requests.
+[2018.07.27-11.25.45:627][863]LogHttp: Display: Sleeping 0.5s to wait for 1 outstanding Http requests.
+[2018.07.27-11.25.46:127][863]LogHttp: Display: Sleeping 0.5s to wait for 1 outstanding Http requests.
+[2018.07.27-11.25.46:627][863]LogHttp: Display: Sleeping 0.5s to wait for 1 outstanding Http requests.
+[2018.07.27-11.25.47:127][863]LogHttp: Display: Sleeping 0.5s to wait for 1 outstanding Http requests.
+[2018.07.27-11.25.47:628][863]LogHttp: Display: Sleeping 0.5s to wait for 1 outstanding Http requests.
+[2018.07.27-11.25.48:128][863]LogHttp: Display: Sleeping 0.5s to wait for 1 outstanding Http requests.
+[2018.07.27-11.25.48:628][863]LogHttp: Display: Sleeping 0.5s to wait for 1 outstanding Http requests.
+[2018.07.27-11.25.49:129][863]LogHttp: Display: Sleeping 0.5s to wait for 1 outstanding Http requests.
+[2018.07.27-11.25.49:629][863]LogHttp: Display: Sleeping 0.5s to wait for 1 outstanding Http requests.
+[2018.07.27-11.25.50:129][863]LogHttp: Display: Sleeping 0.5s to wait for 1 outstanding Http requests.
+[2018.07.27-11.25.50:630][863]LogHttp: Display: Sleeping 0.5s to wait for 1 outstanding Http requests.
+[2018.07.27-11.25.51:130][863]LogHttp: Display: Sleeping 0.5s to wait for 1 outstanding Http requests.
+[2018.07.27-11.25.51:630][863]LogHttp: Display: Sleeping 0.5s to wait for 1 outstanding Http requests.
+[2018.07.27-11.25.52:131][863]LogHttp: Display: Sleeping 0.5s to wait for 1 outstanding Http requests.
+[2018.07.27-11.25.52:631][863]LogHttp: Display: Sleeping 0.5s to wait for 1 outstanding Http requests.
+[2018.07.27-11.25.53:131][863]LogHttp: Display: Sleeping 0.5s to wait for 1 outstanding Http requests.
+[2018.07.27-11.25.53:632][863]LogHttp: Display: Sleeping 0.5s to wait for 1 outstanding Http requests.
+[2018.07.27-11.25.54:132][863]LogHttp: Display: Sleeping 0.5s to wait for 1 outstanding Http requests.
+[2018.07.27-11.25.54:632][863]LogHttp: Display: Sleeping 0.5s to wait for 1 outstanding Http requests.
+[2018.07.27-11.25.55:133][863]LogHttp: Display: Sleeping 0.5s to wait for 1 outstanding Http requests.
+[2018.07.27-11.25.55:633][863]LogHttp: Display: Sleeping 0.5s to wait for 1 outstanding Http requests.
+[2018.07.27-11.25.56:133][863]LogHttp: Display: Sleeping 0.5s to wait for 1 outstanding Http requests.
+[2018.07.27-11.25.56:634][863]LogHttp: Display: Sleeping 0.5s to wait for 1 outstanding Http requests.
+[2018.07.27-11.25.57:134][863]LogHttp: Display: Sleeping 0.5s to wait for 1 outstanding Http requests.
+[2018.07.27-11.25.57:634][863]LogHttp: Display: Sleeping 0.5s to wait for 1 outstanding Http requests.
+[2018.07.27-11.25.58:135][863]LogHttp: Display: Sleeping 0.5s to wait for 1 outstanding Http requests.
+[2018.07.27-11.25.58:635][863]LogHttp: Display: Sleeping 0.5s to wait for 1 outstanding Http requests.
+[2018.07.27-11.25.59:135][863]LogHttp: Display: Sleeping 0.5s to wait for 1 outstanding Http requests.
+[2018.07.27-11.25.59:636][863]LogHttp: Display: Sleeping 0.5s to wait for 1 outstanding Http requests.
+[2018.07.27-11.26.00:136][863]LogHttp: Display: Sleeping 0.5s to wait for 1 outstanding Http requests.
+[2018.07.27-11.26.00:636][863]LogHttp: Display: Sleeping 0.5s to wait for 1 outstanding Http requests.
+[2018.07.27-11.26.01:137][863]LogHttp: Display: Sleeping 0.5s to wait for 1 outstanding Http requests.
+[2018.07.27-11.26.01:637][863]LogHttp: Display: Sleeping 0.5s to wait for 1 outstanding Http requests.
+[2018.07.27-11.26.02:137][863]LogHttp: Display: Sleeping 0.5s to wait for 1 outstanding Http requests.
+[2018.07.27-11.26.02:638][863]LogHttp: Display: Sleeping 0.5s to wait for 1 outstanding Http requests.
+[2018.07.27-11.26.03:138][863]LogHttp: Display: Sleeping 0.5s to wait for 1 outstanding Http requests.
+[2018.07.27-11.26.03:638][863]LogHttp: Display: Sleeping 0.5s to wait for 1 outstanding Http requests.
+[2018.07.27-11.26.04:139][863]LogHttp: Display: Sleeping 0.5s to wait for 1 outstanding Http requests.
+[2018.07.27-11.26.04:639][863]LogHttp: Display: Sleeping 0.5s to wait for 1 outstanding Http requests.
+[2018.07.27-11.26.05:139][863]LogHttp: Display: Sleeping 0.5s to wait for 1 outstanding Http requests.
+[2018.07.27-11.26.05:640][863]LogHttp: Display: Sleeping 0.5s to wait for 1 outstanding Http requests.
+[2018.07.27-11.26.06:140][863]LogHttp: Display: Sleeping 0.5s to wait for 1 outstanding Http requests.
+[2018.07.27-11.26.06:640][863]LogHttp: Display: Sleeping 0.5s to wait for 1 outstanding Http requests.
+[2018.07.27-11.26.07:141][863]LogHttp: Display: Sleeping 0.5s to wait for 1 outstanding Http requests.
+[2018.07.27-11.26.07:641][863]LogHttp: Display: Sleeping 0.5s to wait for 1 outstanding Http requests.
+[2018.07.27-11.26.08:141][863]LogHttp: Display: Sleeping 0.5s to wait for 1 outstanding Http requests.
+[2018.07.27-11.26.08:642][863]LogHttp: Display: Sleeping 0.5s to wait for 1 outstanding Http requests.
+[2018.07.27-11.26.09:142][863]LogHttp: Display: Sleeping 0.5s to wait for 1 outstanding Http requests.
+[2018.07.27-11.26.09:642][863]LogHttp: Display: Sleeping 0.5s to wait for 1 outstanding Http requests.
+[2018.07.27-11.26.10:143][863]LogHttp: Display: Sleeping 0.5s to wait for 1 outstanding Http requests.
+[2018.07.27-11.26.10:643][863]LogHttp: Display: Sleeping 0.5s to wait for 1 outstanding Http requests.
+[2018.07.27-11.26.11:143][863]LogHttp: Display: Sleeping 0.5s to wait for 1 outstanding Http requests.
+[2018.07.27-11.26.11:644][863]LogHttp: Display: Sleeping 0.5s to wait for 1 outstanding Http requests.
+[2018.07.27-11.26.12:144][863]LogHttp: Display: Sleeping 0.5s to wait for 1 outstanding Http requests.
+[2018.07.27-11.26.12:644][863]LogHttp: Display: Sleeping 0.5s to wait for 1 outstanding Http requests.
+[2018.07.27-11.26.13:145][863]LogHttp: Display: Sleeping 0.5s to wait for 1 outstanding Http requests.
+[2018.07.27-11.26.13:645][863]LogHttp: Display: Sleeping 0.5s to wait for 1 outstanding Http requests.
+[2018.07.27-11.26.14:145][863]LogHttp: Display: Sleeping 0.5s to wait for 1 outstanding Http requests.
+[2018.07.27-11.26.14:646][863]LogHttp: Display: Sleeping 0.5s to wait for 1 outstanding Http requests.
+[2018.07.27-11.26.15:146][863]LogHttp: Display: Sleeping 0.5s to wait for 1 outstanding Http requests.
+[2018.07.27-11.26.15:646][863]LogHttp: Display: Sleeping 0.5s to wait for 1 outstanding Http requests.
+[2018.07.27-11.26.16:147][863]LogHttp: Display: Sleeping 0.5s to wait for 1 outstanding Http requests.
+[2018.07.27-11.26.16:647][863]LogHttp: Display: Sleeping 0.5s to wait for 1 outstanding Http requests.
+[2018.07.27-11.26.17:147][863]LogHttp: Display: Sleeping 0.5s to wait for 1 outstanding Http requests.
+[2018.07.27-11.26.17:648][863]LogHttp: Display: Sleeping 0.5s to wait for 1 outstanding Http requests.
+[2018.07.27-11.26.18:148][863]LogHttp: Display: Sleeping 0.5s to wait for 1 outstanding Http requests.
+[2018.07.27-11.26.18:648][863]LogHttp: Display: Sleeping 0.5s to wait for 1 outstanding Http requests.
+[2018.07.27-11.26.19:149][863]LogHttp: Display: Sleeping 0.5s to wait for 1 outstanding Http requests.
+[2018.07.27-11.26.19:649][863]LogHttp: Display: Sleeping 0.5s to wait for 1 outstanding Http requests.
+[2018.07.27-11.26.20:149][863]LogHttp: Display: Sleeping 0.5s to wait for 1 outstanding Http requests.
+[2018.07.27-11.26.20:650][863]LogHttp: Display: Sleeping 0.5s to wait for 1 outstanding Http requests.
+[2018.07.27-11.26.21:150][863]LogHttp: Display: Sleeping 0.5s to wait for 1 outstanding Http requests.
+[2018.07.27-11.26.21:650][863]LogHttp: Display: Sleeping 0.5s to wait for 1 outstanding Http requests.
+[2018.07.27-11.26.22:151][863]LogHttp: Display: Sleeping 0.5s to wait for 1 outstanding Http requests.
+[2018.07.27-11.26.22:651][863]LogHttp: Display: Sleeping 0.5s to wait for 1 outstanding Http requests.
+[2018.07.27-11.26.23:151][863]LogHttp: Display: Sleeping 0.5s to wait for 1 outstanding Http requests.
+[2018.07.27-11.26.23:652][863]LogHttp: Display: Sleeping 0.5s to wait for 1 outstanding Http requests.
+[2018.07.27-11.26.24:152][863]LogHttp: Display: Sleeping 0.5s to wait for 1 outstanding Http requests.
+[2018.07.27-11.26.24:652][863]LogHttp: Display: Sleeping 0.5s to wait for 1 outstanding Http requests.
+[2018.07.27-11.26.25:153][863]LogHttp: Display: Sleeping 0.5s to wait for 1 outstanding Http requests.
+[2018.07.27-11.26.25:653][863]LogHttp: Display: Sleeping 0.5s to wait for 1 outstanding Http requests.
+[2018.07.27-11.26.26:153][863]LogHttp: Display: Sleeping 0.5s to wait for 1 outstanding Http requests.
+[2018.07.27-11.26.26:654][863]LogHttp: Display: Sleeping 0.5s to wait for 1 outstanding Http requests.
+[2018.07.27-11.26.27:154][863]LogHttp: Display: Sleeping 0.5s to wait for 1 outstanding Http requests.
+[2018.07.27-11.26.27:654][863]LogHttp: Display: Sleeping 0.5s to wait for 1 outstanding Http requests.
+[2018.07.27-11.26.28:155][863]LogHttp: Display: Sleeping 0.5s to wait for 1 outstanding Http requests.
+[2018.07.27-11.26.28:655][863]LogHttp: Display: Sleeping 0.5s to wait for 1 outstanding Http requests.
+[2018.07.27-11.26.29:155][863]LogHttp: Display: Sleeping 0.5s to wait for 1 outstanding Http requests.
+[2018.07.27-11.26.29:656][863]LogHttp: Display: Sleeping 0.5s to wait for 1 outstanding Http requests.
+[2018.07.27-11.26.30:156][863]LogHttp: Display: Sleeping 0.5s to wait for 1 outstanding Http requests.
+[2018.07.27-11.26.30:656][863]LogHttp: Display: Sleeping 0.5s to wait for 1 outstanding Http requests.
+[2018.07.27-11.26.31:157][863]LogHttp: Display: Sleeping 0.5s to wait for 1 outstanding Http requests.
+[2018.07.27-11.26.31:657][863]LogHttp: Display: Sleeping 0.5s to wait for 1 outstanding Http requests.
+[2018.07.27-11.26.32:157][863]LogHttp: Display: Sleeping 0.5s to wait for 1 outstanding Http requests.
+[2018.07.27-11.26.32:658][863]LogHttp: Display: Sleeping 0.5s to wait for 1 outstanding Http requests.
+[2018.07.27-11.26.33:158][863]LogHttp: Display: Sleeping 0.5s to wait for 1 outstanding Http requests.
+[2018.07.27-11.26.33:658][863]LogHttp: Display: Sleeping 0.5s to wait for 1 outstanding Http requests.
+[2018.07.27-11.26.34:159][863]LogHttp: Display: Sleeping 0.5s to wait for 1 outstanding Http requests.
+[2018.07.27-11.26.34:659][863]LogHttp: Display: Sleeping 0.5s to wait for 1 outstanding Http requests.
+[2018.07.27-11.26.35:159][863]LogHttp: Display: Sleeping 0.5s to wait for 1 outstanding Http requests.
+[2018.07.27-11.26.35:660][863]LogHttp: Display: Sleeping 0.5s to wait for 1 outstanding Http requests.
+[2018.07.27-11.26.36:160][863]LogHttp: Display: Sleeping 0.5s to wait for 1 outstanding Http requests.
+[2018.07.27-11.26.36:660][863]LogHttp: Display: Sleeping 0.5s to wait for 1 outstanding Http requests.
+[2018.07.27-11.26.37:160][863]LogHttp: Display: Sleeping 0.5s to wait for 1 outstanding Http requests.
+[2018.07.27-11.26.37:661][863]LogHttp: Display: Sleeping 0.5s to wait for 1 outstanding Http requests.
+[2018.07.27-11.26.38:161][863]LogHttp: Display: Sleeping 0.5s to wait for 1 outstanding Http requests.
+[2018.07.27-11.26.38:662][863]LogHttp: Display: Sleeping 0.5s to wait for 1 outstanding Http requests.
+[2018.07.27-11.26.39:162][863]LogHttp: Display: Sleeping 0.5s to wait for 1 outstanding Http requests.
+[2018.07.27-11.26.39:662][863]LogHttp: Display: Sleeping 0.5s to wait for 1 outstanding Http requests.
+[2018.07.27-11.26.40:163][863]LogHttp: Display: Sleeping 0.5s to wait for 1 outstanding Http requests.
+[2018.07.27-11.26.40:663][863]LogHttp: Display: Sleeping 0.5s to wait for 1 outstanding Http requests.
+[2018.07.27-11.26.41:163][863]LogHttp: Display: Sleeping 0.5s to wait for 1 outstanding Http requests.
+[2018.07.27-11.26.41:664][863]LogHttp: Display: Sleeping 0.5s to wait for 1 outstanding Http requests.
+[2018.07.27-11.26.42:164][863]LogHttp: Display: Sleeping 0.5s to wait for 1 outstanding Http requests.
+[2018.07.27-11.26.42:664][863]LogHttp: Warning: 00000262A0A83A00: HTTP request timed out after 180.00 seconds URL=https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B6C608EEF-4238-71D3-AB04-739B79BE2EE7%7D&AppID=UEGame.Rocket.Release%7C318BEB8D4380B68A06A1CF89DEF145BF%7C2D%20Side%20Scroller%20Game%20Template&AppVersion=4.19.2-4033788%2B%2B%2BUE4%2BRelease-4.19&UserID=ANON-%7BCA2BF2FE-40EC-D498-3F9F-9C991950068C%7D%7C%7C&AppEnvironment=datacollector-binary&UploadType=eteventstream
+[2018.07.27-11.26.42:664][863]LogHttp: Warning: 00000262A0A83A00: request failed, libcurl error: 0 (No error)
+[2018.07.27-11.26.42:664][863]LogHttp: Warning: 00000262A0A83A00: libcurl info message cache 0 (Found bundle for host datarouter.ol.epicgames.com: 0x262a0b858e0 [serially])
+[2018.07.27-11.26.42:664][863]LogHttp: Warning: 00000262A0A83A00: libcurl info message cache 1 (Hostname in DNS cache was stale, zapped)
+[2018.07.27-11.26.42:664][863]LogHttp: Warning: 00000262A0A83A00: libcurl info message cache 2 (  Trying 34.228.126.143...)
+[2018.07.27-11.26.42:664][863]LogHttp: Warning: 00000262A0A83A00: libcurl info message cache 3 (connect to 34.228.126.143 port 443 failed: Timed out)
+[2018.07.27-11.26.42:664][863]LogHttp: Warning: 00000262A0A83A00: libcurl info message cache 4 (  Trying 34.225.34.243...)
+[2018.07.27-11.26.42:664][863]LogHttp: Warning: 00000262A0A83A00: libcurl info message cache 5 (connect to 34.225.34.243 port 443 failed: Timed out)
+[2018.07.27-11.26.42:664][863]LogHttp: Warning: 00000262A0A83A00: libcurl info message cache 6 (  Trying 34.231.103.121...)
+[2018.07.27-11.26.42:664][863]LogHttp: Warning: 00000262A0A83A00: libcurl info message cache 7 (connect to 34.231.103.121 port 443 failed: Timed out)
+[2018.07.27-11.26.42:664][863]LogHttp: Warning: 00000262A0A83A00: libcurl info message cache 8 (  Trying 34.207.38.109...)
+[2018.07.27-11.26.42:664][863]LogHttp: Warning: 00000262A0A83A00: libcurl info message cache 9 (connect to 34.207.38.109 port 443 failed: Timed out)
+[2018.07.27-11.26.42:664][863]LogHttp: Warning: 00000262A0A83A00: libcurl info message cache 10 (  Trying 34.231.138.22...)
+[2018.07.27-11.26.42:664][863]LogHttp: Warning: 00000262A0A83A00: libcurl info message cache 11 (connect to 34.231.138.22 port 443 failed: Timed out)
+[2018.07.27-11.26.42:664][863]LogHttp: Warning: 00000262A0A83A00: libcurl info message cache 12 (  Trying 34.224.106.243...)
+[2018.07.27-11.26.42:664][863]LogHttp: Warning: 00000262A0A83A00: libcurl info message cache 13 (connect to 34.224.106.243 port 443 failed: Timed out)
+[2018.07.27-11.26.42:664][863]LogHttp: Warning: 00000262A0A83A00: libcurl info message cache 14 (  Trying 34.232.82.35...)
+[2018.07.27-11.26.42:664][863]LogHttp: Warning: 00000262A0A83A00: libcurl info message cache 15 (connect to 34.232.82.35 port 443 failed: Timed out)
+[2018.07.27-11.26.42:664][863]LogHttp: Warning: 00000262A0A83A00: libcurl info message cache 16 (  Trying 34.231.0.173...)
+[2018.07.27-11.26.42:664][863]LogHttp: Warning: 00000262A0A83A00: libcurl info message cache 17 (connect to 34.231.0.173 port 443 failed: Timed out)
+[2018.07.27-11.26.42:664][863]LogHttp: Warning: 00000262A0A83A00: libcurl info message cache 18 (  Trying 34.228.126.143...)
+[2018.07.27-11.26.42:664][863]LogHttp: Warning: 00000262A0A83A00: libcurl info message cache 19 (Closing connection 1)
+[2018.07.27-11.26.42:673][863]LogModuleManager: Shutting down and abandoning module SSL (32)
+[2018.07.27-11.26.42:673][863]LogModuleManager: Shutting down and abandoning module ShaderCore (28)
+[2018.07.27-11.26.42:673][863]LogModuleManager: Shutting down and abandoning module Landscape (26)
+[2018.07.27-11.26.42:673][863]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (24)
+[2018.07.27-11.26.42:674][863]LogModuleManager: Shutting down and abandoning module OpenGLDrv (22)
+[2018.07.27-11.26.42:674][863]LogModuleManager: Shutting down and abandoning module D3D11RHI (20)
+[2018.07.27-11.26.42:674][863]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (18)
+[2018.07.27-11.26.42:674][863]LogModuleManager: Shutting down and abandoning module Renderer (16)
+[2018.07.27-11.26.42:674][863]LogModuleManager: Shutting down and abandoning module Engine (14)
+[2018.07.27-11.26.42:674][863]LogModuleManager: Shutting down and abandoning module CoreUObject (12)
+[2018.07.27-11.26.42:674][863]LogModuleManager: Shutting down and abandoning module NetworkFile (10)
+[2018.07.27-11.26.42:674][863]LogModuleManager: Shutting down and abandoning module CookedIterativeFile (8)
+[2018.07.27-11.26.42:674][863]LogModuleManager: Shutting down and abandoning module StreamingFile (6)
+[2018.07.27-11.26.42:674][863]LogModuleManager: Shutting down and abandoning module SandboxFile (4)
+[2018.07.27-11.26.42:674][863]LogModuleManager: Shutting down and abandoning module PakFile (2)
+[2018.07.27-11.26.42:675][863]LogExit: Exiting.
+[2018.07.27-11.26.42:676][863]Log file closed, 07/27/18 19:26:42
